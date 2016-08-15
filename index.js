@@ -99,7 +99,17 @@ controller.on('slash_command', function (slashCommand, message) {
             if (message.text === "" || message.text === "help") {
                 slashCommand.replyPrivate(message,
                     "I help you look up JIRA templates. " +
-                    "Try typing `/jira change events`, `/jira submittals` or `/jira other` to see.");
+                    "Type:\n" +
+                    "*/jira bidding*  for  Bidding, Insurance\n" +
+                    "*/jira budget*  for  Budget, Cost Codes, Timecard\n" +
+                    "*/jira change events*  for  Change Events, Change Orders\n" +
+                    "*/jira collab*  for  RFI's, Submittals, Transmittals, Meetings, Emails, Directory, Admin, Project Creation\n" +
+                    "*/jira drawings*  for  Drawings, Specifications, Custom Tools, BIM\n" +
+                    "*/jira drive*  for  Drive, Schedules, Windows\n" +
+                    "*/jira insights*  for  Reports, Custom, Reporting, Home, Portfolio\n" +
+                    "*/jira integrations*  for  ERP, other integrations\n" +
+                    "*/jira mobile tools*  for  Android, iOS - Inspections, Observations, Punch List, Daily Log\n" +
+                    "*/jira prime contract*  for  Prime Contract, Direct Cost, Payment Applications and Draw Requests, Commitments\n");
                 return;
             }
             
