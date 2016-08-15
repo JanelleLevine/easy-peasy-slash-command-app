@@ -275,16 +275,16 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Scope:*\n" + 
 "* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
-"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
+"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n\n" +
 "*Expected Outcome:* [What should be happening?] \n" +
 "*Actual Outcome:* [What is happening instead?] \n" +
 "*Steps to Recreate:* \n" +
 "# Add link here \n" +
-"# ... \n" +
+"# ... \n\n" +
 "*Additional Information:* \n" +
 "*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
 "*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
-"*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
+"*Console Error:* [Yes/No - Attach screenshot if yes] \n```";
                     slashCommand.replyPrivate(message, t);
                     return;                
                     case "integrations":
@@ -293,12 +293,12 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Scope:*\n" + 
 "* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
-"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
+"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n\n" +
 "*Expected Outcome:* [What should be happening?] \n" +
 "*Actual Outcome:* [What is happening instead?] \n" +
 "*Steps to Recreate:* \n" +
 "# Add link here \n" +
-"# ... \n" +
+"# ... \n\n" +
 "*Additional Information:* \n" +
 "*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
 "*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
@@ -325,7 +325,7 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Additional Information:* \n" +
 "*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
 "*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
-"*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
+"*Console Error:* [Yes/No - Attach screenshot if yes] \n```";
                     slashCommand.replyPrivate(message, t);
                     return;
                     case "prime contract":
@@ -334,16 +334,16 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Scope:*\n" + 
 "* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
-"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
+"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n\n" +
 "*Expected Outcome:* [What should be happening?] \n" +
 "*Actual Outcome:* [What is happening instead?] \n" +
 "*Steps to Recreate:* \n" +
 "# Add link here \n" +
-"# ... \n" +
+"# ... \n\n" +
 "*Additional Information:* \n" +
 "*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
 "*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
-"*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
+"*Console Error:* [Yes/No - Attach screenshot if yes] \n```";
                     slashCommand.replyPrivate(message, t);
                     return;
                     case "auto file ticket":
