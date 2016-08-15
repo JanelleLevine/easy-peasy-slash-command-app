@@ -169,7 +169,8 @@ controller.on('slash_command', function (slashCommand, message) {
                     slashCommand.replyPrivate(message, t);
                     return;
                     case "budget":
-                    t = "```*Context:* [What is happening?]\n" + 
+                    t = "_*Budget*_\n" +
+"```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
@@ -186,7 +187,8 @@ controller.on('slash_command', function (slashCommand, message) {
                     slashCommand.replyPrivate(message, t);
                     return;                
                     case "drawings":
-                    t = "```*Context:* [What is happening?]\n" + 
+                    t = "_*Drawings*_\n" +
+"```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
@@ -203,7 +205,8 @@ controller.on('slash_command', function (slashCommand, message) {
                     slashCommand.replyPrivate(message, t);
                     return;                
                     case "drive":
-                    t = "```*Context:* [What is happening?]\n" + 
+                    t = "_*Drive*_\n" +
+"```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
@@ -220,7 +223,8 @@ controller.on('slash_command', function (slashCommand, message) {
                     slashCommand.replyPrivate(message, t);
                     return;                
                     case "insights":
-                    t = "```*Context:* [What is happening?]\n" + 
+                    t = "_*Insights*_\n" +
+"```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
@@ -237,7 +241,8 @@ controller.on('slash_command', function (slashCommand, message) {
                     slashCommand.replyPrivate(message, t);
                     return;                
                     case "integrations":
-                    t = "```*Context:* [What is happening?]\n" + 
+                    t = "_*Integrations*_\n" +
+"```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
@@ -254,7 +259,8 @@ controller.on('slash_command', function (slashCommand, message) {
                     slashCommand.replyPrivate(message, t);
                     return;
                     case "mobile tools":
-                    t = "```*Context:* [What is happening?]\n" + 
+                    t = "_*Mobile Tools*_\n" +
+"```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
@@ -271,7 +277,8 @@ controller.on('slash_command', function (slashCommand, message) {
                     slashCommand.replyPrivate(message, t);
                     return;
                     case "prime contract":
-                    t = "```*Context:* [What is happening?]\n" + 
+                    t = "_*Prime Contract*_\n" +
+"```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
