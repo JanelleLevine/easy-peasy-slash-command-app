@@ -173,7 +173,8 @@ controller.on('slash_command', function (slashCommand, message) {
                     return;
                     case "budget":
                     t = "_*Budget*_\n" +
-"```*Context:* [What is happening?]\n" + 
+"```*Context:* [What is happening?]\n" +
+"*Users Email Address:* \n" +
 "*Scope:*\n" + 
 "* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
