@@ -100,8 +100,8 @@ controller.on('slash_command', function (slashCommand, message) {
                 slashCommand.replyPrivate(message,
                     "I help you look up JIRA templates.\n" +
                     "Type:\n" +
-                    "*/jira bidding*  for  Bidding, Insurance\n" +
-                    "*/jira budget*  for  Budget, Cost Codes, Timecard\n" +
+                    "`/jira bidding`  for  Bidding, Insurance\n" +
+                    "`/jira budget`  for  Budget, Cost Codes, Timecard\n" +
                     "*/jira change events*  for  Change Events, Change Orders\n" +
                     "*/jira collab*  for  RFI's, Submittals, Transmittals, Meetings, Emails, Directory, Admin, Project Creation\n" +
                     "*/jira drawings*  for  Drawings, Specifications, Custom Tools, BIM\n" +
