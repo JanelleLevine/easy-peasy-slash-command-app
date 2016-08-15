@@ -109,7 +109,8 @@ controller.on('slash_command', function (slashCommand, message) {
                     "`/jira insights`  for  Reports, Custom, Reporting, Home, Portfolio\n" +
                     "`/jira integrations`  for  ERP, other integrations\n" +
                     "`/jira mobile tools`  for  Android, iOS - Inspections, Observations, Punch List, Daily Log\n" +
-                    "`/jira prime contract`  for  Prime Contract, Direct Cost, Payment Applications and Draw Requests, Commitments\n");
+                    "`/jira prime contract`  for  Prime Contract, Direct Cost, Payment Applications and Draw Requests, Commitments\n"
+                    "`/jira auto file ticket` to automatically create this ticket");
                 return;
             }
             
@@ -294,7 +295,7 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
                     slashCommand.replyPrivate(message, t);
                     return;
-                    case "other":
+                    case "auto file ticket":
                     t = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
                     slashCommand.replyPrivate(message, t);
                     return;
