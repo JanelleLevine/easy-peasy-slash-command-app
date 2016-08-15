@@ -295,7 +295,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     slashCommand.replyPrivate(message, t);
                     return;
                     case "other":
-                    t = "/giphy wtf";
+                    t = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
                     slashCommand.replyPrivate(message, t);
                     return;
                 default:
