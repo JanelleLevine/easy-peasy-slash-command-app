@@ -261,9 +261,9 @@ controller.on('slash_command', function (slashCommand, message) {
                     return;
                     case "mobile tools":
                     t = "_*Mobile Tools*_\n" +
-"```*Context:* [What is happening?]\n" +
+"```*Context:* [What is happening?] \n" +
 "*User's Email Address:* \n" +
-"*Scope:*\n" + 
+"*Scope:* \n" +
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
