@@ -104,6 +104,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     "`/jira budget`  for  Budget, Cost Codes, Timecard\n" +
                     "`/jira change events`  for  Change Events, Change Orders\n" +
                     "`/jira collab`  for  RFI's, Submittals, Transmittals, Meetings, Emails, Directory, Admin, Project Creation\n" +
+                    "`/jira documents`  for  Documents, Photos\n" +
                     "`/jira drawings`  for  Drawings, Specifications, Custom Tools, BIM\n" +
                     "`/jira drive`  for  Drive, Schedules, Windows\n" +
                     "`/jira field tools`  for  Inspections, Observations, Punch List, Daily Log\n" +
@@ -136,8 +137,9 @@ controller.on('slash_command', function (slashCommand, message) {
                 return;
                 case "collab":
                     t = "_*Collab*_\n" +
-"```{color:#d04437}##IF THIS IS A DOCUMENT UPLOAD ERROR, PLEASE ATTACH THE DOCUMENT##{color}\n\n" +
+"```{color:#d04437}##Fun Fact: This squad receives approximately 60% of support tickets! Let's do what we can to make sure they don't have to reach back out for additional information. Thanks for your extra effort on these tickets, supporticans!##{color}\n\n" +
 "*Context:* [What is happening?]\n" + 
+"*User's Email Address:*\n" +
 "*Scope:*\n" + 
 "* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
@@ -148,6 +150,7 @@ controller.on('slash_command', function (slashCommand, message) {
 "# Add link here \n" +
 "# ... \n\n" +
 "*Additional Information:* \n" +
+"*Other troubleshooting steps that have been taken:* \n" +
 "*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
 "*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
 "*Console Error:* {color:#d04437}[Yes/No - Screenshots of console errors are particularly useful to this squad. Please attach one if you are able]{color} \n```";
