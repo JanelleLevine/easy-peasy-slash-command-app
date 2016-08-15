@@ -136,7 +136,7 @@ controller.on('slash_command', function (slashCommand, message) {
                 return;
                 case "collab":
                     t = "_*Collab*_\n" +
-"```##IF THIS IS A DOCUMENT UPLOAD ERROR, PLEASE ATTACH THE DOCUMENT##\n\n" +
+"```{color:#d04437}##IF THIS IS A DOCUMENT UPLOAD ERROR, PLEASE ATTACH THE DOCUMENT##{color}\n\n" +
 "*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
