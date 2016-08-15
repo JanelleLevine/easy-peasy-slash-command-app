@@ -270,9 +270,9 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Expected Outcome:* [What should be happening?] \n" +
 "*Actual Outcome:* [What is happening instead?] \n" +
 "*Device Information:* \n" +
-"*Android/iOS: \n" +
-"*Device Model: \n" +
-"*Version of Procore: \n" +
+"* Android/iOS: \n" +
+"* Device Model: \n" +
+"* Version of Procore: \n" +
 "*Steps to Recreate:* \n" +
 "# Add link here \n" +
 "# ... \n" +
