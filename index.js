@@ -228,7 +228,7 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Additional Information:* \n" +
 "*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
 "*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
-"*Console Error:* {color:#d04437}[Yes/No - Screenshots of console errors are particularly useful to this squad. Please attach one if you are able]{color} \n```";
+"*Console Error:* [Yes/No - Attach screenshot if available] \n```";
                     slashCommand.replyPrivate(message, t);
                     return;                
                     case "drive":
