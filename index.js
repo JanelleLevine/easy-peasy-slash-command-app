@@ -270,7 +270,7 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Additional Information:* \n" +
 "*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
 "*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
-"*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
+"*Console Error:* [Yes/No - Attach screenshot if yes] \n```";
                     slashCommand.replyPrivate(message, t);
                     return;
                     case "insights":
