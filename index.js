@@ -294,6 +294,10 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
                     slashCommand.replyPrivate(message, t);
                     return;
+                                    case "other":
+                    t = "/giphy wtf";
+                    slashCommand.replyPrivate(message, t);
+                    return;
                 default:
                 slashCommand.replyPrivate(message, "I don't under stand that");
                 return;
