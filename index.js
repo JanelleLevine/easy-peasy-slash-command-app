@@ -120,6 +120,7 @@ controller.on('slash_command', function (slashCommand, message) {
                 case "change events":
                     t = "_*Change Events*_\n" +
 "```*Context:* [What is happening?]\n" + 
+"*User's Email Address:*\n" + 
 "*Scope:*\n" + 
 "* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
@@ -272,6 +273,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     case "insights":
                     t = "_*Insights*_\n" +
 "```*Context:* [What is happening?]\n" + 
+"*User's Email Address:*\n" +
 "*Scope:*\n" + 
 "* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
