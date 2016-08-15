@@ -259,6 +259,8 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Scope:*\n" + 
 "* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
+"* Has this been tested with multiple users? [Yes/No - User Emails] \n" +
+"* Has this been tested with different permission levels? [Yes/No - Permission levels affected] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n\n" +
 "*Expected Outcome:* [What should be happening?] \n" +
 "*Actual Outcome:* [What is happening instead?] \n" +
