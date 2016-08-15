@@ -296,7 +296,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     slashCommand.replyPrivate(message, t);
                     return;
                     case "auto file ticket":
-                    t = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+                    t = "Auto File Link: http://bit.ly/IqT6zt";
                     slashCommand.replyPrivate(message, t);
                     return;
                 default:
