@@ -119,7 +119,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     t = "_*Change Events*_\n" +
 "```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
-"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
 "*Expected Outcome:* [What should be happening?] \n" +
@@ -137,7 +137,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     t = "_*Collab*_\n" +
 "```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
-"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
 "*Expected Outcome:* [What should be happening?] \n" +
@@ -155,7 +155,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     t = "_*Bidding*_\n" +
 "```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
-"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
 "*Expected Outcome:* [What should be happening?] \n" +
@@ -173,7 +173,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     t = "_*Budget*_\n" +
 "```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
-"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
 "*Expected Outcome:* [What should be happening?] \n" +
@@ -191,7 +191,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     t = "_*Drawings*_\n" +
 "```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
-"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
 "*Expected Outcome:* [What should be happening?] \n" +
@@ -209,7 +209,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     t = "_*Drive*_\n" +
 "```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
-"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
 "*Expected Outcome:* [What should be happening?] \n" +
@@ -227,7 +227,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     t = "_*Insights*_\n" +
 "```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
-"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
 "*Expected Outcome:* [What should be happening?] \n" +
@@ -245,7 +245,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     t = "_*Integrations*_\n" +
 "```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
-"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
 "*Expected Outcome:* [What should be happening?] \n" +
@@ -264,7 +264,7 @@ controller.on('slash_command', function (slashCommand, message) {
 "```*Context:* [What is happening?] \n" +
 "*User's Email Address:* \n" +
 "*Scope:* \n" +
-"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
 "*Expected Outcome:* [What should be happening?] \n" +
@@ -286,7 +286,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     t = "_*Prime Contract*_\n" +
 "```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
-"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
 "*Expected Outcome:* [What should be happening?] \n" +
