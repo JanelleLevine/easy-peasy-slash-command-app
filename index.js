@@ -98,7 +98,7 @@ controller.on('slash_command', function (slashCommand, message) {
             // if no text was supplied, treat it as a help command
             if (message.text === "" || message.text === "help") {
                 slashCommand.replyPrivate(message,
-                    "Welcom to JIRABot! I help you look up JIRA templates.\n" +
+                    "Welcome to JIRABot! I help you look up JIRA templates.\n" +
                     "Type:\n" +
                     "`/jira bidding`  for  Bidding, Insurance\n" +
                     "`/jira budget`  for  Budget, Cost Codes, Timecard\n" +
