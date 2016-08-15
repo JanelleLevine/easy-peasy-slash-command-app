@@ -294,7 +294,7 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
                     slashCommand.replyPrivate(message, t);
                     return;
-                                    case "other":
+                    case "other":
                     t = "/giphy wtf";
                     slashCommand.replyPrivate(message, t);
                     return;
