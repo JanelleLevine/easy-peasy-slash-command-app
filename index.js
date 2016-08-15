@@ -115,7 +115,8 @@ controller.on('slash_command', function (slashCommand, message) {
             
             switch(message.text){
                 case "change events":
-                    t = "```*Context:* [What is happening?]\n" + 
+                    t = "_*Change Events*_\n" +
+"```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
@@ -132,7 +133,8 @@ controller.on('slash_command', function (slashCommand, message) {
                     slashCommand.replyPrivate(message, t);
                 return;
                 case "collab":
-                    t = "```*Context:* [What is happening?]\n" + 
+                    t = "_*Collab*_\n" +
+"```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
@@ -149,7 +151,8 @@ controller.on('slash_command', function (slashCommand, message) {
                     slashCommand.replyPrivate(message, t);
                     return;
                     case "bidding":
-                    t = "```*Context:* [What is happening?]\n" + 
+                    t = "_*Bidding*_\n" +
+"```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
@@ -165,40 +168,6 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
                     slashCommand.replyPrivate(message, t);
                     return;
-                    case "other":
-                    t = "```*Context:* [What is happening?]\n" + 
-"*Scope:*\n" + 
-"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
-"* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
-"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
-"*Expected Outcome:* [What should be happening?] \n" +
-"*Actual Outcome:* [What is happening instead?] \n" +
-"*Steps to Recreate:* \n" +
-"# Add link here \n" +
-"# ... \n" +
-"*Additional Information:* \n" +
-"*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
-"*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
-"*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
-                    slashCommand.replyPrivate(message, t);
-                    return;                
-                    case "other":
-                    t = "```*Context:* [What is happening?]\n" + 
-"*Scope:*\n" + 
-"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
-"* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
-"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
-"*Expected Outcome:* [What should be happening?] \n" +
-"*Actual Outcome:* [What is happening instead?] \n" +
-"*Steps to Recreate:* \n" +
-"# Add link here \n" +
-"# ... \n" +
-"*Additional Information:* \n" +
-"*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
-"*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
-"*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
-                    slashCommand.replyPrivate(message, t);
-                    return;                
                     case "budget":
                     t = "```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
@@ -216,7 +185,7 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
                     slashCommand.replyPrivate(message, t);
                     return;                
-                    case "other":
+                    case "drawings":
                     t = "```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
@@ -233,7 +202,75 @@ controller.on('slash_command', function (slashCommand, message) {
 "*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
                     slashCommand.replyPrivate(message, t);
                     return;                
-                    case "other":
+                    case "drive":
+                    t = "```*Context:* [What is happening?]\n" + 
+"*Scope:*\n" + 
+"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
+"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
+"*Expected Outcome:* [What should be happening?] \n" +
+"*Actual Outcome:* [What is happening instead?] \n" +
+"*Steps to Recreate:* \n" +
+"# Add link here \n" +
+"# ... \n" +
+"*Additional Information:* \n" +
+"*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
+"*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
+"*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
+                    slashCommand.replyPrivate(message, t);
+                    return;                
+                    case "insights":
+                    t = "```*Context:* [What is happening?]\n" + 
+"*Scope:*\n" + 
+"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
+"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
+"*Expected Outcome:* [What should be happening?] \n" +
+"*Actual Outcome:* [What is happening instead?] \n" +
+"*Steps to Recreate:* \n" +
+"# Add link here \n" +
+"# ... \n" +
+"*Additional Information:* \n" +
+"*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
+"*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
+"*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
+                    slashCommand.replyPrivate(message, t);
+                    return;                
+                    case "integrations":
+                    t = "```*Context:* [What is happening?]\n" + 
+"*Scope:*\n" + 
+"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
+"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
+"*Expected Outcome:* [What should be happening?] \n" +
+"*Actual Outcome:* [What is happening instead?] \n" +
+"*Steps to Recreate:* \n" +
+"# Add link here \n" +
+"# ... \n" +
+"*Additional Information:* \n" +
+"*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
+"*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
+"*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
+                    slashCommand.replyPrivate(message, t);
+                    return;
+                    case "mobile tools":
+                    t = "```*Context:* [What is happening?]\n" + 
+"*Scope:*\n" + 
+"*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
+"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
+"*Expected Outcome:* [What should be happening?] \n" +
+"*Actual Outcome:* [What is happening instead?] \n" +
+"*Steps to Recreate:* \n" +
+"# Add link here \n" +
+"# ... \n" +
+"*Additional Information:* \n" +
+"*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
+"*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
+"*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
+                    slashCommand.replyPrivate(message, t);
+                    return;
+                    case "prime contract":
                     t = "```*Context:* [What is happening?]\n" + 
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
