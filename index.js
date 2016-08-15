@@ -262,12 +262,17 @@ controller.on('slash_command', function (slashCommand, message) {
                     case "mobile tools":
                     t = "_*Mobile Tools*_\n" +
 "```*Context:* [What is happening?]\n" + 
+"*User's Email Address:*" \n" +
 "*Scope:*\n" + 
 "*Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
 "*Expected Outcome:* [What should be happening?] \n" +
 "*Actual Outcome:* [What is happening instead?] \n" +
+"*Device Information:* \n" +
+"*Android/iOS: \n" +
+"*Device Model: \n" +
+"*Version of Procore: \n" +
 "*Steps to Recreate:* \n" +
 "# Add link here \n" +
 "# ... \n" +
