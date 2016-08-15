@@ -106,9 +106,10 @@ controller.on('slash_command', function (slashCommand, message) {
                     "`/jira collab`  for  RFI's, Submittals, Transmittals, Meetings, Emails, Directory, Admin, Project Creation\n" +
                     "`/jira drawings`  for  Drawings, Specifications, Custom Tools, BIM\n" +
                     "`/jira drive`  for  Drive, Schedules, Windows\n" +
+                    "`/jira field tools`  for  Inspections, Observations, Punch List, Daily Log\n" +
                     "`/jira insights`  for  Reports, Custom, Reporting, Home, Portfolio\n" +
                     "`/jira integrations`  for  ERP, other integrations\n" +
-                    "`/jira mobile tools`  for  Android, iOS - Inspections, Observations, Punch List, Daily Log\n" +
+                    "`/jira mobile tools`  for  Android, iOS \n" +
                     "`/jira prime contract`  for  Prime Contract, Direct Cost, Payment Applications and Draw Requests, Commitments\n" +
                     "`/jira auto file ticket` to automatically create this ticket");
                 return;
@@ -222,7 +223,25 @@ controller.on('slash_command', function (slashCommand, message) {
 "*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
 "*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
                     slashCommand.replyPrivate(message, t);
-                    return;                
+                    return;
+                    case "field tools":
+                    t = "_*Field Tools*_\n" +
+"```*Context:* [What is happening?]\n" + 
+"*Scope:*\n" + 
+"* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
+"* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
+"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n" +
+"*Expected Outcome:* [What should be happening?] \n" +
+"*Actual Outcome:* [What is happening instead?] \n" +
+"*Steps to Recreate:* \n" +
+"# Add link here \n" +
+"# ... \n" +
+"*Additional Information:* \n" +
+"*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
+"*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
+"*Console Error:* [Yes/No - [Attach screenshot if yes] \n```";
+                    slashCommand.replyPrivate(message, t);
+                    return;
                     case "insights":
                     t = "_*Insights*_\n" +
 "```*Context:* [What is happening?]\n" + 
