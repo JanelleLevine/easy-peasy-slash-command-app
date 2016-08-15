@@ -296,7 +296,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     slashCommand.replyPrivate(message, t);
                     return;
                     case "auto file ticket":
-                    t = "Auto File JIRA: http://bit.ly/IqT6zt";
+                    t = "Auto File JIRA: http://bit.ly/20Ms6AK";
                     slashCommand.replyPrivate(message, t);
                     return;
                 default:
