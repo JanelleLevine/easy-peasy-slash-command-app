@@ -313,7 +313,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     case "mobile tools":
                     t = "_*Mobile Tools*_\n" +
 "```{color:#d04437}Summary field should be in this format: [TOOL NAME: Title of Issue]{color}\n\n" +
-"*Context:* [What is happening? - Keep this concise and relevant.] \n" +
+"*Context:* [What is happening? - Keep this concise and relevant.] \n\n" +
 "*Device Information:* \n" +
 "* Android/iOS version: \n" +
 "* Device Model: \n" +
