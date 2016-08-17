@@ -312,25 +312,25 @@ controller.on('slash_command', function (slashCommand, message) {
                     return;
                     case "mobile tools":
                     t = "_*Mobile Tools*_\n" +
-"```*Context:* [What is happening?] \n" +
+"```{color:#d04437}##Please use this format for the 'Summary' field above: [TOOL NAME: Title of Issue]##{color}\n\n" +
+"*Context:* [What is happening? - Keep this concise and relevant.] \n" +
 "*User's Email Address:* \n" +
 "*Scope:* \n" +
 "* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
 "* Has this been tested in multiple companies? [Yes/No - Names of companies] \n\n" +
-"*Expected Outcome:* [What should be happening?] \n" +
-"*Actual Outcome:* [What is happening instead?] \n" +
 "*Device Information:* \n" +
-"* Android/iOS: \n" +
+"* Android/iOS version: \n" +
 "* Device Model: \n" +
-"* Version of Procore: \n\n" +
-"*Steps to Recreate:* \n" +
-"# Add link here \n" +
+"* Version of Procore App: \n\n" +
+"*Steps to Replicate:* - Not a link; should be actual steps to recreate the problem. \n" +
+"# ... \n" +
 "# ... \n\n" +
 "*Additional Information:* \n" +
-"*Workaround:* [Is there a reliable workaround being recommended to users?]  \n" +
-"*404/500 Error:* [Yes/No - Attach screenshot with address bar included if yes] \n" +
-"*Console Error:* [Yes/No - Attach screenshot if yes] \n```";
+"*Workaround:* [Is there a reliable workaround being recommended to users?] \n" +
+"*Expected Outcome:* [What should be happening?] \n" +
+"*Actual Outcome:* [What is happening instead?] \n\n" +
+"{color:#d04437}##Please add any available screenshots##{color}```";
                     slashCommand.replyPrivate(message, t);
                     return;
                     case "prime contract":
