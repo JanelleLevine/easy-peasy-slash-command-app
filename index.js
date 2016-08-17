@@ -312,7 +312,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     return;
                     case "mobile tools":
                     t = "_*Mobile Tools*_\n" +
-"```{color:#d04437}##Please use this format for the 'Summary' field above: [TOOL NAME: Title of Issue]##{color}\n\n" +
+"```{color:#d04437}Summary field should be in this format: [TOOL NAME: Title of Issue]{color}\n\n" +
 "*Context:* [What is happening? - Keep this concise and relevant.] \n" +
 "*User's Email Address:* \n" +
 "*Scope:* \n" +
@@ -327,7 +327,7 @@ controller.on('slash_command', function (slashCommand, message) {
 "# ... \n" +
 "# ... \n\n" +
 "*Additional Information:* \n" +
-"*Workaround:* [Is there a reliable workaround being recommended to users?] \n" +
+"*Workaround:* [Is there a reliable workaround being recommended to users?] \n\n" +
 "*Expected Outcome:* [What should be happening?] \n" +
 "*Actual Outcome:* [What is happening instead?] \n\n" +
 "{color:#d04437}##Please add any available screenshots##{color}```";
