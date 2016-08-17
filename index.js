@@ -315,10 +315,10 @@ controller.on('slash_command', function (slashCommand, message) {
 "```{color:#d04437}Summary field should be in this format: [TOOL NAME: Title of Issue]{color}\n\n" +
 "*Context:* [What is happening? - Keep this concise and relevant.] \n" +
 "*User's Email Address:* \n" +
+"*Link to page on web:* \n\n" +
 "*Scope:* \n" +
-"* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
-"* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
-"* Has this been tested in multiple companies? [Yes/No - Names of companies] \n\n" +
+"* Has this been tested on multiple devices? [Yes/No - Which devices, and what were the results?]: \n" +
+"* Has this been tested in multiple projects/companies? [Yes/No - Links to projects tested in] \n\n" +
 "*Device Information:* \n" +
 "* Android/iOS version: \n" +
 "* Device Model: \n" +
