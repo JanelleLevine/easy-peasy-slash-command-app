@@ -314,15 +314,15 @@ controller.on('slash_command', function (slashCommand, message) {
                     t = "_*Mobile Tools*_\n" +
 "```{color:#d04437}Summary field should be in this format: [TOOL NAME: Title of Issue]{color}\n\n" +
 "*Context:* [What is happening? - Keep this concise and relevant.] \n" +
+"*Device Information:* \n" +
+"* Android/iOS version: \n" +
+"* Device Model: \n" +
+"* Version of Procore App: \n\n" +
 "*User's Email Address:* \n" +
 "*Link to page on web:* \n\n" +
 "*Scope:* \n" +
 "* Has this been tested on multiple devices? [Yes/No - Which devices, and what were the results?]: \n" +
 "* Has this been tested in multiple projects/companies? [Yes/No - Links to projects tested in] \n\n" +
-"*Device Information:* \n" +
-"* Android/iOS version: \n" +
-"* Device Model: \n" +
-"* Version of Procore App: \n\n" +
 "*Steps to Replicate:* - Not a link; should be actual steps to recreate the problem. \n" +
 "# ... \n" +
 "# ... \n\n" +
