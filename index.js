@@ -218,6 +218,7 @@ controller.on('slash_command', function (slashCommand, message) {
                     t = "_*Drawings*_\n" +
 "```{color:#d04437}##IF THIS IS A DOCUMENT UPLOAD ERROR, PLEASE ATTACH THE DOCUMENT##{color}\n\n" +
 "*Context:* [What is happening?]\n" + 
+"*User's email address:* \n" + 
 "*Scope:*\n" + 
 "* Has this been tested on multiple browsers? [Yes/No - Which browsers]: \n" +
 "* Has this been tested in multiple projects? [Yes/No - Links to projects tested in] \n" +
